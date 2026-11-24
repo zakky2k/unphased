@@ -5,7 +5,14 @@
 Unphased draws one night as a single chart: the Sun's altitude band across the
 whole night (daylight through full dark), the Moon's arc and phase, moonrise and
 moonset, and a red marker you can park on any minute of the night and hold there
-while you leaf through the nights around it. Everything is computed on your own
+while you leaf through the nights around it. The idea of reading a night this way
+— altitude against time, with twilight and the Moon in one picture — comes from
+the Sky Atlas altitude charts in [N.I.N.A.](https://nighttime-imaging.eu/)
+(Nighttime Imaging 'N' Astronomy), the open-source imaging suite by Stefan Berg
+([@isbeorn](https://github.com/isbeorn)), who wrote the original altitude-chart
+code back in 2017 and has maintained it with its contributors ever since.
+Unphased takes that design and gives it one job: answer *is the sky usable
+tonight, and for how long* — nothing else. Everything is computed on your own
 machine — no account, no network lookup, nothing leaves the computer.
 
 Version **0.1** — the first published release.
