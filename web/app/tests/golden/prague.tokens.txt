@@ -1,0 +1,135 @@
+134 tokens
+<button aria-label=back one hour class=btn style=width:62px;flex-shrink:0/>
+<button aria-label=forward one hour class=btn style=width:62px;flex-shrink:0/>
+<button class=btn disabled= style=width:78px;flex-shrink:0;opacity:0.45/>
+<circle cx=747.4932916661104 cy=450 fill-opacity=0.9 fill=#EFE0B7 r=2.6/>
+<clipPath id=plot-live/>
+<defs />
+<div />
+<div style=display:flex;align-items:center;gap:10px;margin-bottom:8px;color:#E2E8F0;font-size:12px/>
+<feGaussianBlur result=b stdDeviation=2.6/>
+<feMerge />
+<feMergeNode in=SourceGraphic/>
+<feMergeNode in=b/>
+<filter height=220% id=glow-live width=220% x=-60% y=-60%/>
+<input aria-label=time of night class=scrub max=1795521600 min=1795435200 step=1 style=flex:1 type=range value=1795435200/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=131.11 y2=131.11/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=222.22 y2=222.22/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=267.77 y2=267.77/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=358.88 y2=358.88/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=404.44 y2=404.44/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=85.55 y2=85.55/>
+<line stroke-dasharray=4 5 stroke-opacity=0.3 stroke=#94A3B8 x1=506.00 x2=506.00 y1=40.00 y2=450.00/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=176.66 y2=176.66/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=313.33 y2=313.33/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=40.00 y2=40.00/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=450.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=170.36 x2=170.36 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=197.07 x2=197.07 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=222.16 x2=222.16 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=246.27 x2=246.27 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=677.05 x2=677.05 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=701.21 x2=701.21 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=726.36 x2=726.36 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=166.66 x2=170.36 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=193.37 x2=197.07 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=218.46 x2=222.16 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=242.57 x2=246.27 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=680.75 x2=677.05 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=704.91 x2=701.21 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=730.06 x2=726.36 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=756.88 x2=753.18 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.75 stroke-width=0.9 stroke=#EFE0B7 x1=766.24 x2=747.49 y1=404.44 y2=447.00/>
+<line stroke-width=1 stroke=#5E8FC8 x1=56.00 x2=156.80 y1=450.00 y2=450.00/>
+<line stroke-width=1 stroke=#5E8FC8 x1=855.20 x2=956.00 y1=450.00 y2=450.00/>
+<line stroke-width=2 stroke=#5E8FC8 x1=56.00 x2=56.00 y1=450.00 y2=471.00/>
+<line stroke-width=2 stroke=#5E8FC8 x1=956.00 x2=956.00 y1=450.00 y2=471.00/>
+<linearGradient id=b-astronomical-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-astronomical-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-civil-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-civil-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-nautical-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-nautical-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-night-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-night-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<polyline fill=none points=170.3624999995033,408.9498888888889 176.6124999995033,402.2851111111111 182.8624999995033,395.5428888888889 189.11249999950329,388.7323333333334 195.36249999950329,381.858 201.61249999950329,374.929 207.86249999950329,367.94533333333334 214.11249999950329,360.9161111111111 220.36249999950329,353.8458888888889 226.61249999950329,346.7437777777778 232.86249999950329,339.6143333333333 239.11249999950329,332.4621111111111 245.36249999950329,325.29622222222224 251.61249999950329,318.12122222222223 257.86249999950326,310.9462222222222 264.11249999950326,303.77577777777776 270.36249999950326,296.619 276.61249999950326,289.485 282.86249999950326,282.3828888888889 289.11249999950326,275.3217777777778 295.36249999950326,268.30622222222223 301.61249999950326,261.35900000000004 307.86249999950326,254.48011111111114 314.1124999995033,247.68777777777782 320.3624999995033,241.00022222222225 326.6124999995033,234.42655555555558 332.8624999995033,227.98955555555554 339.1124999995033,221.70744444444443 345.3624999995033,215.59844444444443 351.6124999995033,209.6898888888889 357.8624999995033,204.00455555555556 364.1124999995033,198.5743333333333 370.3624999995033,193.42655555555558 376.6124999995033,188.5976666666667 382.8624999995033,184.1241111111111 389.1124999995033,180.0377777777778 395.3624999995033,176.37511111111112 401.6124999995033,173.18166666666664 407.8624999995033,170.48477777777777 414.1124999995033,168.3208888888889 420.3624999995033,166.72188888888888 426.6124999995033,165.70144444444446 432.8624999995033,165.28233333333333 439.1124999995033,165.46455555555556 445.3624999995033,166.2481111111111 451.6124999995033,167.61933333333334 457.8624999995033,169.55999999999997 464.1124999995033,172.03822222222223 470.3624999995033,175.02666666666667 476.6124999995033,178.48888888888888 482.8624999995033,182.3838888888889 489.1124999995033,186.6752222222222 495.3624999995033,191.331 501.6124999995033,196.30566666666667 507.8624999995033,201.57188888888888 514.1124999995034,207.0977777777778 520.3624999995034,212.8468888888889 526.6124999995034,218.80100000000002 532.8624999995034,224.93277777777777 539.1124999995034,231.21944444444443 545.3624999995034,237.63822222222225 551.6124999995034,244.17544444444445 557.8624999995034,250.81288888888892 564.1124999995034,257.5323333333333 570.3624999995033,264.32466666666664 576.6124999995033,271.17622222222224 582.8624999995033,278.0733333333333 589.1124999995033,285.00688888888885 595.3624999995033,291.96322222222216 601.6124999995033,298.9423333333333 607.8624999995033,305.93055555555554 614.1124999995033,312.91422222222224 620.3624999995033,319.8978888888889 626.6124999995033,326.86333333333334 632.8624999995033,333.81055555555554 639.1124999995033,340.7258888888889 645.3624999995033,347.6093333333333 651.6124999995033,354.45633333333336 657.8624999995033,361.2532222222222 664.1124999995033,368 670.3624999995033,374.68755555555555 676.6124999995033,381.30677777777777 682.8624999995033,387.8622222222222 689.1124999995033,394.3356666666667 695.3624999995033,400.7316666666667 701.6124999995033,407.0365555555556 707.8624999995033,413.2457777777778 714.1124999995033,419.35477777777777 720.3624999995033,425.359 726.6124999995033,431.24933333333337 732.8624999995033,437.0166666666667 739.1124999995033,442.661 745.3624999995033,448.1686666666667 stroke-linejoin=round stroke-opacity=0.55 stroke-width=1.8 stroke=#EFE0B7/>
+<rect fill-opacity=0.92 fill=#0B101C height=16.00 rx=3 stroke-opacity=0.45 stroke-width=0.7 stroke=#EFE0B7 width=76.60 x=766.24 y=388.44/>
+<rect fill=#0A0E18 height=600.00 width=980.00/>
+<rect fill=#5E8FC8 height=410.00 opacity=0.6 width=114.36 x=56.00 y=40.00/>
+<rect fill=#5E8FC8 height=410.00 opacity=0.6 width=202.81 x=753.18 y=40.00/>
+<rect fill=url(#b-astronomical-dawn-live) height=410.00 width=24.15 x=677.05 y=40.00/>
+<rect fill=url(#b-astronomical-dusk-live) height=410.00 width=24.10 x=222.16 y=40.00/>
+<rect fill=url(#b-civil-dawn-live) height=410.00 width=26.81 x=726.36 y=40.00/>
+<rect fill=url(#b-civil-dusk-live) height=410.00 width=26.71 x=170.36 y=40.00/>
+<rect fill=url(#b-nautical-dawn-live) height=410.00 width=25.15 x=701.21 y=40.00/>
+<rect fill=url(#b-nautical-dusk-live) height=410.00 width=25.08 x=197.07 y=40.00/>
+<rect fill=url(#b-night-dawn-live) height=410.00 width=430.78 x=246.27 y=40.00/>
+<rect height=410.00 width=900.00 x=56.00 y=40.00/>
+<span style=width:96px;flex-shrink:0;opacity:0.75/>
+<stop offset=0 stop-color=#05070C stop-opacity=0.72/>
+<stop offset=0 stop-color=#05070C/>
+<stop offset=0 stop-color=#0D1B31 stop-opacity=0.72/>
+<stop offset=0 stop-color=#0D1B31/>
+<stop offset=0 stop-color=#18304F stop-opacity=0.72/>
+<stop offset=0 stop-color=#18304F/>
+<stop offset=0 stop-color=#27476E stop-opacity=0.72/>
+<stop offset=0 stop-color=#27476E/>
+<stop offset=1 stop-color=#05070C stop-opacity=0.72/>
+<stop offset=1 stop-color=#05070C/>
+<stop offset=1 stop-color=#0D1B31 stop-opacity=0.72/>
+<stop offset=1 stop-color=#0D1B31/>
+<stop offset=1 stop-color=#18304F stop-opacity=0.72/>
+<stop offset=1 stop-color=#18304F/>
+<stop offset=1 stop-color=#27476E stop-opacity=0.72/>
+<stop offset=1 stop-color=#27476E/>
+<svg font-family=Inter, Segoe UI, sans-serif height=600.00 role=img style=width:100%;height:auto viewBox=0 0 980 600 width=980.00 xmlns=http://www.w3.org/2000/svg/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=135.11/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=180.66/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=226.22/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=271.77/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=317.33/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=362.88/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=408.44/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=44.00/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=454.00/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=89.55/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end transform=rotate(-45 166.66249999950332 484) x=166.66 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end transform=rotate(-45 193.37594791551433 484) x=193.37 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end transform=rotate(-45 218.46391666730247 484) x=218.46 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end transform=rotate(-45 242.57221874892713 484) x=242.57 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end x=950.00 y=466.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=middle x=506.00 y=30.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 680.7549687494835 484) x=680.75 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 704.9134791662296 484) x=704.91 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 730.0695520833135 484) x=730.06 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 756.8815000002584 484) x=756.88 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start x=62.00 y=466.00/>
+<text fill=#E2E8F0 font-size=12 text-anchor=middle x=804.54 y=399.94/>
+<text fill=#E2E8F0 font-size=13 font-weight=600 x=56.00 y=24.00/>
+text:+1 h
+text:00:00 Tue 24 Nov
+text:04:33 astro.
+text:05:12 naut.
+text:05:52 civil
+text:06:35 sunrise
+text:0°
+text:10°
+text:12:00 Mon 23
+text:12:00 Tue 24
+text:15:02 sunset
+text:15:45 civil
+text:16:25 naut.
+text:17:04 astro.
+text:20°
+text:30°
+text:40°
+text:50.09, 14.42  ·  Mon 23 Nov  15:02 → Tue 24 Nov  06:35
+text:50°
+text:60°
+text:70°
+text:80°
+text:90°
+text:live clock
+text:set 06:26
+text:−1 h
+text:⏱ live

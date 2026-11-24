@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".gates-build",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "incremental": false
+  },
+  "include": [
+    "scripts/parity.ts",
+    "scripts/golden.ts",
+    "scripts/tokens.ts",
+    "scripts/units.ts",
+    "components/night-chart/NightChart.tsx",
+    "components/night-chart/LiveNightChart.tsx",
+    "lib/palette.ts",
+    "lib/types.ts",
+    "lib/chart/*.ts"
+  ]
+}

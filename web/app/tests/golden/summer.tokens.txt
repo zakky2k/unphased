@@ -1,0 +1,125 @@
+124 tokens
+<button aria-label=back one hour class=btn style=width:62px;flex-shrink:0/>
+<button aria-label=forward one hour class=btn style=width:62px;flex-shrink:0/>
+<button class=btn disabled= style=width:78px;flex-shrink:0;opacity:0.45/>
+<circle cx=457.7226458340883 cy=450 fill-opacity=0.9 fill=#EFE0B7 r=2.6/>
+<clipPath id=plot-live/>
+<defs />
+<div />
+<div style=display:flex;align-items:center;gap:10px;margin-bottom:8px;color:#E2E8F0;font-size:12px/>
+<feGaussianBlur result=b stdDeviation=2.6/>
+<feMerge />
+<feMergeNode in=SourceGraphic/>
+<feMergeNode in=b/>
+<filter height=220% id=glow-live width=220% x=-60% y=-60%/>
+<input aria-label=time of night class=scrub max=1782129600 min=1782043200 step=1 style=flex:1 type=range value=1782043200/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=131.11 y2=131.11/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=222.22 y2=222.22/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=267.77 y2=267.77/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=358.88 y2=358.88/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=404.44 y2=404.44/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=85.55 y2=85.55/>
+<line stroke-dasharray=4 5 stroke-opacity=0.3 stroke=#94A3B8 x1=506.00 x2=506.00 y1=40.00 y2=450.00/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=176.66 y2=176.66/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=313.33 y2=313.33/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=40.00 y2=40.00/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=450.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=324.14 x2=324.14 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=356.34 x2=356.34 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=397.67 x2=397.67 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=544.62 x2=544.62 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=585.95 x2=585.95 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=320.44 x2=324.14 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=352.64 x2=356.34 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=393.97 x2=397.67 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=548.32 x2=544.62 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=589.65 x2=585.95 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=621.84 x2=618.14 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.75 stroke-width=0.9 stroke=#EFE0B7 x1=476.47 x2=457.72 y1=404.44 y2=447.00/>
+<line stroke-width=1 stroke=#5E8FC8 x1=56.00 x2=156.80 y1=450.00 y2=450.00/>
+<line stroke-width=1 stroke=#5E8FC8 x1=855.20 x2=956.00 y1=450.00 y2=450.00/>
+<line stroke-width=2 stroke=#5E8FC8 x1=56.00 x2=56.00 y1=450.00 y2=471.00/>
+<line stroke-width=2 stroke=#5E8FC8 x1=956.00 x2=956.00 y1=450.00 y2=471.00/>
+<linearGradient id=b-astronomical-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-astronomical-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-civil-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-civil-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-nautical-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-nautical-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-night-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-night-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<polyline fill=none points=324.14695833375055,313.57477777777774 330.39695833375055,318.45833333333337 336.64695833375055,323.5651111111111 342.89695833375055,328.8905555555555 349.14695833375055,334.4118888888889 355.39695833375055,340.11544444444445 361.64695833375055,345.99666666666667 367.89695833375055,352.03277777777777 374.14695833375055,358.2146666666667 380.39695833375055,364.53777777777776 386.64695833375055,370.97933333333333 392.89695833375055,377.5393333333333 399.14695833375055,384.19955555555555 405.39695833375055,390.9554444444445 411.64695833375055,397.79333333333335 417.89695833375055,404.70866666666666 424.14695833375055,411.6923333333333 430.39695833375055,418.73066666666665 436.64695833375055,425.8191111111111 442.89695833375055,432.95311111111107 449.14695833375055,440.11899999999997 455.39695833375055,447.31677777777776 stroke-linejoin=round stroke-opacity=0.55 stroke-width=1.8 stroke=#EFE0B7/>
+<rect fill-opacity=0.92 fill=#0B101C height=16.00 rx=3 stroke-opacity=0.45 stroke-width=0.7 stroke=#EFE0B7 width=76.60 x=476.47 y=388.44/>
+<rect fill=#0A0E18 height=600.00 width=980.00/>
+<rect fill=#5E8FC8 height=410.00 opacity=0.6 width=268.14 x=56.00 y=40.00/>
+<rect fill=#5E8FC8 height=410.00 opacity=0.6 width=337.85 x=618.14 y=40.00/>
+<rect fill=url(#b-astronomical-dusk-live) height=410.00 width=146.94 x=397.67 y=40.00/>
+<rect fill=url(#b-civil-dawn-live) height=410.00 width=32.19 x=585.95 y=40.00/>
+<rect fill=url(#b-civil-dusk-live) height=410.00 width=32.19 x=324.14 y=40.00/>
+<rect fill=url(#b-nautical-dawn-live) height=410.00 width=41.33 x=544.62 y=40.00/>
+<rect fill=url(#b-nautical-dusk-live) height=410.00 width=41.33 x=356.34 y=40.00/>
+<rect height=410.00 width=900.00 x=56.00 y=40.00/>
+<span style=width:96px;flex-shrink:0;opacity:0.75/>
+<stop offset=0 stop-color=#05070C stop-opacity=0.72/>
+<stop offset=0 stop-color=#05070C/>
+<stop offset=0 stop-color=#0D1B31 stop-opacity=0.72/>
+<stop offset=0 stop-color=#0D1B31/>
+<stop offset=0 stop-color=#18304F stop-opacity=0.72/>
+<stop offset=0 stop-color=#18304F/>
+<stop offset=0 stop-color=#27476E stop-opacity=0.72/>
+<stop offset=0 stop-color=#27476E/>
+<stop offset=1 stop-color=#05070C stop-opacity=0.72/>
+<stop offset=1 stop-color=#05070C/>
+<stop offset=1 stop-color=#0D1B31 stop-opacity=0.72/>
+<stop offset=1 stop-color=#0D1B31/>
+<stop offset=1 stop-color=#18304F stop-opacity=0.72/>
+<stop offset=1 stop-color=#18304F/>
+<stop offset=1 stop-color=#27476E stop-opacity=0.72/>
+<stop offset=1 stop-color=#27476E/>
+<svg font-family=Inter, Segoe UI, sans-serif height=600.00 role=img style=width:100%;height:auto viewBox=0 0 980 600 width=980.00 xmlns=http://www.w3.org/2000/svg/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=135.11/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=180.66/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=226.22/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=271.77/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=317.33/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=362.88/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=408.44/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=44.00/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=454.00/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=89.55/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end transform=rotate(-45 320.44695833375056 484) x=320.44 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end transform=rotate(-45 352.64180208295585 484) x=352.64 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end transform=rotate(-45 393.9734479169051 484) x=393.97 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end x=950.00 y=466.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=middle x=506.00 y=30.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 548.32185416619 484) x=548.32 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 589.653635416925 484) x=589.65 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 621.8486249988279 484) x=621.84 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start x=62.00 y=466.00/>
+<text fill=#E2E8F0 font-size=12 text-anchor=middle x=514.77 y=399.94/>
+<text fill=#E2E8F0 font-size=13 font-weight=600 x=56.00 y=24.00/>
+text:+1 h
+text:00:00 Mon 22 Jun
+text:01:01 naut.
+text:02:07 civil
+text:02:59 sunrise
+text:0°
+text:10°
+text:12:00 Mon 22
+text:12:00 Sun 21
+text:19:09 sunset
+text:20:00 civil
+text:20°
+text:21:06 naut.
+text:30°
+text:40°
+text:50.09, 14.42  ·  Sun 21 Jun  19:09 → Mon 22 Jun  02:59
+text:50°
+text:60°
+text:70°
+text:80°
+text:90°
+text:live clock
+text:set 22:42
+text:−1 h
+text:⏱ live

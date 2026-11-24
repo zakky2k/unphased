@@ -1,0 +1,198 @@
+/* Phone-first: the chart is an SVG with its own viewBox, so it scales down to
+   320 px; controls stack. Palette matches the chart (page #0A0E18). */
+
+:root {
+  color-scheme: dark;
+  --bg: #0a0e18;
+  --ink: #8c9bb4;
+  --ink-bright: #e2e8f0;
+  --edge: #1d2637;
+  /* Every surface the app draws a box on, as variables so the DARK toggle can
+     retint them (round 8, review 24 Nov): the control boxes used to be a hard
+     #121826 blue in BOTH schemes, which read as blue chips floating on the red
+     page. */
+  --edge-hi: #33415c;        /* hover border */
+  --field: #121826;          /* inputs, select, buttons, scrubber */
+  --field-hi: #1c2536;       /* the nested 12/24 button */
+  --field-hi-hover: #263248;
+  --cell: #101625;           /* summary-strip box */
+}
+
+/* DARK toggle: red sky scheme, identical lightness — every blue with its
+   B channel moved into R (the surface rule is (R,G,B) → (B,R,R): #1d2637 →
+   #371d1d, #121826 → #261212, and so on), so hierarchy survives the swap.
+   Round 8 also took a few points off both inks — red ink on a red page carries
+   more apparent weight than blue on blue — keeping the reddish tint (R above
+   G=B), and pulled the Moon off ivory in the chart palette (CURVE_RED). */
+:root[data-scheme="red"] {
+  --bg: #180a0a;
+  --ink: #a68181;
+  --ink-bright: #e2d3d3;
+  --edge: #371d1d;
+  --edge-hi: #5c3333;
+  --field: #261212;
+  --field-hi: #361c1c;
+  --field-hi-hover: #482626;
+  --cell: #251010;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink-bright);
+  font-family: Inter, "Segoe UI", system-ui, sans-serif;
+}
+
+.page { max-width: 1020px; margin: 0 auto; padding: 12px; }
+
+.controls h1 { font-size: 17px; font-weight: 600; margin: 4px 0 10px; }
+
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: end;
+}
+
+.control-row label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--ink);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.control-row input {
+  background: var(--field);
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--ink-bright);
+  padding: 7px 9px;
+  font-size: 14px;
+  min-width: 0;
+}
+
+.control-row input[type="number"] { width: 110px; }
+.control-row input[type="text"] { width: 150px; }
+.control-row input[type="date"] { width: 150px; }
+
+/* ZONE is a dropdown of IANA zones (round 7, item 4) — same box as the
+   inputs, FIXED width so the control row never shifts. */
+.control-row select {
+  background: var(--field);
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--ink-bright);
+  padding: 7px 9px;
+  font-size: 14px;
+  width: 210px;
+  min-width: 0;
+}
+
+/* "(All chart elements UTC)" after LOCAL TIME: the label is uppercase by
+   design, this one keeps its own casing (review 24 Nov, round 7). */
+.control-row label .hint { text-transform: none; }
+
+/* DARK button beside the TIME box: fixed size, matches the other inputs */
+.dark-toggle {
+  background: var(--field);
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--ink-bright);
+  padding: 7px 10px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+.dark-toggle:hover { border-color: var(--edge-hi); }
+
+/* Time box: input with the 12/24 toggle button nested inside its right end */
+.time-wrap { position: relative; display: inline-flex; align-items: center; }
+.time-wrap input[type="text"] { width: 130px; padding-right: 40px; }
+.h-toggle {
+  position: absolute;
+  right: 5px;
+  background: var(--field-hi);
+  border: 1px solid var(--edge);
+  border-radius: 5px;
+  color: var(--ink-bright);
+  padding: 4px 7px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.h-toggle:hover { background: var(--field-hi-hover); }
+
+.stepper { display: flex; gap: 6px; }
+
+.stepper button {
+  background: var(--field);
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--ink-bright);
+  padding: 7px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.stepper button:hover { border-color: var(--edge-hi); }
+
+/* The scrub row's buttons (−1 h / +1 h / ⏱ live) and its slider. They used to
+   carry no class at all, so the browser painted its default light-grey box
+   with grey text on a grey box (review 24 Nov, round 5, item D1). Now they are
+   the same dark blue as every other control in the app. Widths stay inline in
+   the component, so the row never shifts under the cursor. */
+.btn {
+  background: var(--field);
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--ink-bright);
+  padding: 7px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.btn:hover { border-color: var(--edge-hi); }
+.btn:disabled { cursor: default; }
+
+/* Time scrubber: same box as the inputs, thumb in the now-red of the marker it
+   moves (#F87171). */
+input[type="range"].scrub {
+  background: var(--field);
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--ink-bright);
+  accent-color: #f87171;
+  height: 32px;
+  padding: 0 8px;
+}
+
+.strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
+  gap: 6px;
+  margin: 14px 0 10px;
+}
+
+.cell {
+  background: var(--cell);
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  padding: 7px 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cell-label { font-size: 10px; color: var(--ink); letter-spacing: 0.06em; text-transform: uppercase; }
+.cell-value { font-size: 15px; font-variant-numeric: tabular-nums; }
+
+.chart-wrap svg { width: 100%; height: auto; display: block; }
+
+.error { color: #f87171; font-size: 13px; }
+.muted { color: var(--ink); font-size: 13px; }
+
+@media (max-width: 420px) {
+  .control-row input[type="number"] { width: 90px; }
+}

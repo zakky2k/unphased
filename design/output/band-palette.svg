@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420" viewBox="0 0 980 420" font-family="Inter, Segoe UI, sans-serif">
+<rect width="980" height="420" fill="#0A0E18"/>
+<text x="36" y="26" font-size="14" font-weight="600" fill="#E2E8F0">Twilight band palette — night near-black, progressively lighter blues toward daylight</text>
+<rect x="36" y="44" width="150" height="52" rx="6" fill="#27476E"/>
+<text x="204" y="65" font-size="13" font-weight="600" fill="#E2E8F0">civil</text>
+<text x="204" y="84" font-size="11" fill="#8C9BB4">sun 0&#176; to -6&#176;  ·  #27476E</text>
+<rect x="36" y="106" width="150" height="52" rx="6" fill="#18304F"/>
+<text x="204" y="127" font-size="13" font-weight="600" fill="#E2E8F0">nautical</text>
+<text x="204" y="146" font-size="11" fill="#8C9BB4">sun -6&#176; to -12&#176;  ·  #18304F</text>
+<rect x="36" y="168" width="150" height="52" rx="6" fill="#0D1B31"/>
+<text x="204" y="189" font-size="13" font-weight="600" fill="#E2E8F0">astronomical</text>
+<text x="204" y="208" font-size="11" fill="#8C9BB4">sun -12&#176; to -18&#176;  ·  #0D1B31</text>
+<rect x="36" y="230" width="150" height="52" rx="6" fill="#05070C"/>
+<text x="204" y="251" font-size="13" font-weight="600" fill="#E2E8F0">night</text>
+<text x="204" y="270" font-size="11" fill="#8C9BB4">sun below &#8722;18&#176;  ·  #05070C</text>
+<text x="356" y="251" font-size="11" fill="#EFE0B7">the imaging window</text>
+<text x="36" y="316" font-size="12" fill="#8C9BB4">Continuous ramp as painted across a day: dusk &#8594; true night &#8594; dawn, with gradient blends at each boundary</text>
+<defs><linearGradient id="s0" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#27476E"/><stop offset="0.35" stop-color="#27476E"/><stop offset="0.65" stop-color="#27476E"/><stop offset="1" stop-color="#18304F"/></linearGradient></defs>
+<rect x="36.0" y="330" width="129.7" height="74" fill="url(#s0)"/>
+<defs><linearGradient id="s1" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#27476E"/><stop offset="0.35" stop-color="#18304F"/><stop offset="0.65" stop-color="#18304F"/><stop offset="1" stop-color="#0D1B31"/></linearGradient></defs>
+<rect x="165.7" y="330" width="129.7" height="74" fill="url(#s1)"/>
+<defs><linearGradient id="s2" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#18304F"/><stop offset="0.35" stop-color="#0D1B31"/><stop offset="0.65" stop-color="#0D1B31"/><stop offset="1" stop-color="#05070C"/></linearGradient></defs>
+<rect x="295.4" y="330" width="129.7" height="74" fill="url(#s2)"/>
+<defs><linearGradient id="s3" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#0D1B31"/><stop offset="0.35" stop-color="#05070C"/><stop offset="0.65" stop-color="#05070C"/><stop offset="1" stop-color="#0D1B31"/></linearGradient></defs>
+<rect x="425.1" y="330" width="129.7" height="74" fill="url(#s3)"/>
+<defs><linearGradient id="s4" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#05070C"/><stop offset="0.35" stop-color="#0D1B31"/><stop offset="0.65" stop-color="#0D1B31"/><stop offset="1" stop-color="#18304F"/></linearGradient></defs>
+<rect x="554.9" y="330" width="129.7" height="74" fill="url(#s4)"/>
+<defs><linearGradient id="s5" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#0D1B31"/><stop offset="0.35" stop-color="#18304F"/><stop offset="0.65" stop-color="#18304F"/><stop offset="1" stop-color="#27476E"/></linearGradient></defs>
+<rect x="684.6" y="330" width="129.7" height="74" fill="url(#s5)"/>
+<defs><linearGradient id="s6" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#18304F"/><stop offset="0.35" stop-color="#27476E"/><stop offset="0.65" stop-color="#27476E"/><stop offset="1" stop-color="#27476E"/></linearGradient></defs>
+<rect x="814.3" y="330" width="129.7" height="74" fill="url(#s6)"/>
+<line x1="165.7" y1="330" x2="165.7" y2="404" stroke="#CBD5E1" stroke-opacity="0.18"/>
+<line x1="295.4" y1="330" x2="295.4" y2="404" stroke="#CBD5E1" stroke-opacity="0.18"/>
+<line x1="425.1" y1="330" x2="425.1" y2="404" stroke="#CBD5E1" stroke-opacity="0.18"/>
+<line x1="554.9" y1="330" x2="554.9" y2="404" stroke="#CBD5E1" stroke-opacity="0.18"/>
+<line x1="684.6" y1="330" x2="684.6" y2="404" stroke="#CBD5E1" stroke-opacity="0.18"/>
+<line x1="814.3" y1="330" x2="814.3" y2="404" stroke="#CBD5E1" stroke-opacity="0.18"/>
+<text x="100.9" y="422" text-anchor="middle" font-size="10" fill="#8C9BB4">civil</text>
+<text x="230.6" y="422" text-anchor="middle" font-size="10" fill="#8C9BB4">naut</text>
+<text x="360.3" y="422" text-anchor="middle" font-size="10" fill="#8C9BB4">astro</text>
+<text x="490.0" y="422" text-anchor="middle" font-size="10" fill="#8C9BB4">night</text>
+<text x="619.7" y="422" text-anchor="middle" font-size="10" fill="#8C9BB4">astro</text>
+<text x="749.4" y="422" text-anchor="middle" font-size="10" fill="#8C9BB4">naut</text>
+<text x="879.1" y="422" text-anchor="middle" font-size="10" fill="#8C9BB4">civil</text>
+<text x="36" y="438" font-size="12" fill="#8C9BB4">Moon path colour #EFE0B7 checked against each band for contrast</text>
+<rect x="36" y="448" width="200" height="46" rx="6" fill="#27476E"/>
+<polyline points="48,482 96,460 146,470 224,478" fill="none" stroke="#EFE0B7" stroke-width="2"/>
+<circle cx="186" cy="464" r="9" fill="#161D2E" stroke="#EFE0B7" stroke-opacity="0.4"/>
+<rect x="250" y="448" width="200" height="46" rx="6" fill="#18304F"/>
+<polyline points="262,482 310,460 360,470 438,478" fill="none" stroke="#EFE0B7" stroke-width="2"/>
+<circle cx="400" cy="464" r="9" fill="#161D2E" stroke="#EFE0B7" stroke-opacity="0.4"/>
+<rect x="464" y="448" width="200" height="46" rx="6" fill="#0D1B31"/>
+<polyline points="476,482 524,460 574,470 652,478" fill="none" stroke="#EFE0B7" stroke-width="2"/>
+<circle cx="614" cy="464" r="9" fill="#161D2E" stroke="#EFE0B7" stroke-opacity="0.4"/>
+<rect x="678" y="448" width="200" height="46" rx="6" fill="#05070C"/>
+<polyline points="690,482 738,460 788,470 866,478" fill="none" stroke="#EFE0B7" stroke-width="2"/>
+<circle cx="828" cy="464" r="9" fill="#161D2E" stroke="#EFE0B7" stroke-opacity="0.4"/>
+</svg>

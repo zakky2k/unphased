@@ -1,0 +1,124 @@
+123 tokens
+<button aria-label=back one hour class=btn style=width:62px;flex-shrink:0/>
+<button aria-label=forward one hour class=btn style=width:62px;flex-shrink:0/>
+<button class=btn disabled= style=width:78px;flex-shrink:0;opacity:0.45/>
+<circle cx=265.7861041675011 cy=450 fill-opacity=0.9 fill=#EFE0B7 r=2.6/>
+<clipPath id=plot-live/>
+<defs />
+<div />
+<div style=display:flex;align-items:center;gap:10px;margin-bottom:8px;color:#E2E8F0;font-size:12px/>
+<feGaussianBlur result=b stdDeviation=2.6/>
+<feMerge />
+<feMergeNode in=SourceGraphic/>
+<feMergeNode in=b/>
+<filter height=220% id=glow-live width=220% x=-60% y=-60%/>
+<input aria-label=time of night class=scrub max=1795521600 min=1795435200 step=1 style=flex:1 type=range value=1795435200/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=131.11 y2=131.11/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=222.22 y2=222.22/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=267.77 y2=267.77/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=358.88 y2=358.88/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=404.44 y2=404.44/>
+<line stroke-dasharray=1 6 stroke-opacity=0.16 stroke=#94A3B8 x1=56.00 x2=956.00 y1=85.55 y2=85.55/>
+<line stroke-dasharray=4 5 stroke-opacity=0.3 stroke=#94A3B8 x1=506.00 x2=506.00 y1=40.00 y2=450.00/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=176.66 y2=176.66/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=313.33 y2=313.33/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=40.00 y2=40.00/>
+<line stroke-dasharray=5 6 stroke-opacity=0.3 stroke=#94A3B8 x1=56.00 x2=956.00 y1=450.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=243.66 x2=243.66 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=266.61 x2=266.61 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=287.96 x2=287.96 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=56.00 x2=56.00 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=831.09 x2=831.09 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=851.46 x2=851.46 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=872.89 x2=872.89 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.13 stroke=#CBD5E1 x1=895.94 x2=895.94 y1=40.00 y2=450.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=247.36 x2=243.66 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=270.31 x2=266.61 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=291.66 x2=287.96 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.5 stroke-width=0.8 stroke=#E2E8F0 x1=311.97 x2=308.27 y1=482.00 y2=444.00/>
+<line stroke-opacity=0.75 stroke-width=0.9 stroke=#EFE0B7 x1=284.53 x2=265.78 y1=404.44 y2=447.00/>
+<line stroke-width=1 stroke=#5E8FC8 x1=56.00 x2=156.80 y1=450.00 y2=450.00/>
+<line stroke-width=1 stroke=#5E8FC8 x1=855.20 x2=956.00 y1=450.00 y2=450.00/>
+<line stroke-width=2 stroke=#5E8FC8 x1=56.00 x2=56.00 y1=450.00 y2=471.00/>
+<line stroke-width=2 stroke=#5E8FC8 x1=956.00 x2=956.00 y1=450.00 y2=471.00/>
+<linearGradient id=b-astronomical-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-astronomical-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-civil-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-civil-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-nautical-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-nautical-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-night-dawn-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<linearGradient id=b-night-dusk-live x1=0.00 x2=1.00 y1=0.00 y2=0.00/>
+<polyline fill=none points=61.767749999960266,296.2317777777778 68.01774999996026,295.5575555555556 74.26774999996026,295.3161111111111 80.51774999996026,295.512 86.76774999996026,296.1406666666667 93.01774999996027,297.20211111111115 99.26774999996027,298.69177777777776 105.51774999996027,300.60055555555556 111.76774999996027,302.9147777777778 118.01774999996027,305.6298888888889 124.26774999996026,308.72766666666666 130.51774999996024,312.19899999999996 136.76774999996024,316.0302222222222 143.01774999996024,320.1985555555556 149.26774999996024,324.6948888888889 155.51774999996024,329.5055555555556 161.76774999996024,334.6032222222222 168.01774999996024,339.98333333333335 174.26774999996024,345.6276666666667 180.51774999996024,351.51800000000003 186.76774999996027,357.64522222222223 193.01774999996027,363.9865555555555 199.26774999996027,370.5374444444444 205.51774999996027,377.2796666666667 211.76774999996027,384.19955555555555 218.01774999996027,391.288 224.26774999996027,398.54044444444446 230.51774999996027,405.9341111111111 236.76774999996027,413.469 243.01774999996027,421.1268888888889 249.26774999996027,428.90777777777777 255.51774999996027,436.80255555555556 261.7677499999603,444.79755555555556 stroke-linejoin=round stroke-opacity=0.55 stroke-width=1.8 stroke=#EFE0B7/>
+<rect fill-opacity=0.92 fill=#0B101C height=16.00 rx=3 stroke-opacity=0.45 stroke-width=0.7 stroke=#EFE0B7 width=76.60 x=284.53 y=388.44/>
+<rect fill=#0A0E18 height=600.00 width=980.00/>
+<rect fill=#5E8FC8 height=410.00 opacity=0.6 width=522.81 x=308.27 y=40.00/>
+<rect fill=url(#b-astronomical-dawn-live) height=410.00 width=22.95 x=243.66 y=40.00/>
+<rect fill=url(#b-astronomical-dusk-live) height=410.00 width=23.05 x=872.89 y=40.00/>
+<rect fill=url(#b-civil-dawn-live) height=410.00 width=20.31 x=287.96 y=40.00/>
+<rect fill=url(#b-civil-dusk-live) height=410.00 width=20.37 x=831.09 y=40.00/>
+<rect fill=url(#b-nautical-dawn-live) height=410.00 width=21.35 x=266.61 y=40.00/>
+<rect fill=url(#b-nautical-dusk-live) height=410.00 width=21.42 x=851.46 y=40.00/>
+<rect fill=url(#b-night-dawn-live) height=410.00 width=187.66 x=56.00 y=40.00/>
+<rect fill=url(#b-night-dusk-live) height=410.00 width=60.05 x=895.94 y=40.00/>
+<rect height=410.00 width=900.00 x=56.00 y=40.00/>
+<span style=width:96px;flex-shrink:0;opacity:0.75/>
+<stop offset=0 stop-color=#05070C stop-opacity=0.72/>
+<stop offset=0 stop-color=#05070C/>
+<stop offset=0 stop-color=#0D1B31 stop-opacity=0.72/>
+<stop offset=0 stop-color=#0D1B31/>
+<stop offset=0 stop-color=#18304F stop-opacity=0.72/>
+<stop offset=0 stop-color=#18304F/>
+<stop offset=0 stop-color=#27476E stop-opacity=0.72/>
+<stop offset=0 stop-color=#27476E/>
+<stop offset=1 stop-color=#05070C stop-opacity=0.72/>
+<stop offset=1 stop-color=#05070C/>
+<stop offset=1 stop-color=#0D1B31 stop-opacity=0.72/>
+<stop offset=1 stop-color=#0D1B31/>
+<stop offset=1 stop-color=#18304F stop-opacity=0.72/>
+<stop offset=1 stop-color=#18304F/>
+<stop offset=1 stop-color=#27476E stop-opacity=0.72/>
+<stop offset=1 stop-color=#27476E/>
+<svg font-family=Inter, Segoe UI, sans-serif height=600.00 role=img style=width:100%;height:auto viewBox=0 0 980 600 width=980.00 xmlns=http://www.w3.org/2000/svg/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=135.11/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=180.66/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=226.22/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=271.77/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=317.33/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=362.88/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=408.44/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=44.00/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=454.00/>
+<text fill=#E2E8F0 font-size=11 text-anchor=end x=46.00 y=89.55/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=end x=950.00 y=466.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=middle x=506.00 y=30.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 247.36071874896683 484) x=247.36 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 270.31205208301543 484) x=270.31 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 291.6668958336115 484) x=291.66 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start transform=rotate(45 311.9799270823598 484) x=311.97 y=484.00/>
+<text fill=#E2E8F0 font-size=12 opacity=0.9 text-anchor=start x=62.00 y=466.00/>
+<text fill=#E2E8F0 font-size=12 text-anchor=middle x=322.83 y=399.94/>
+<text fill=#E2E8F0 font-size=13 font-weight=600 x=56.00 y=24.00/>
+text:+1 h
+text:-33.87, 151.21  ·  Mon 23 Nov  08:39 → Tue 24 Nov  18:43
+text:00:00 Tue 24 Nov
+text:0°
+text:10°
+text:12:00 Mon 23
+text:12:00 Tue 24
+text:17:00 astro.
+text:17:36 naut.
+text:18:11 civil
+text:18:43 sunrise
+text:20°
+text:30°
+text:40°
+text:50°
+text:60°
+text:70°
+text:80°
+text:90°
+text:live clock
+text:set 17:35
+text:−1 h
+text:⏱ live

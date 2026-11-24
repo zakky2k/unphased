@@ -1,0 +1,12 @@
+# Generated chart artefacts and probe data: reproducible from the scripts,
+# so they do not belong in history. The review SVGs are the exception —
+# they are committed so the design can be reviewed straight from GitHub.
+night*.json
+preview-*.png
+mockup.html
+__pycache__/
+!output/chart-prague.svg
+!output/chart-prague-now.svg
+!output/chart-summer.svg
+!output/chart-sydney.svg
+!output/band-palette.svg

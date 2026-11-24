@@ -1,0 +1,11 @@
+astropy==8.0.2
+astropy-iers-data==0.2026.11.2.0.34.55
+numpy==2.5.4
+packaging==26.3
+pyerfa==2.0.1.5
+PyYAML==6.0.3
+# planner/night.py takes an IANA zone name and asks it what the offset really is
+# on a given night, so summer/winter switching follows the zone rather than a
+# fixed number. On Windows that lookup needs this data package.
+pytz==2026.6
+tzdata==2026.6
