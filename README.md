@@ -10,7 +10,26 @@ machine — no account, no network lookup, nothing leaves the computer.
 
 Version **0.1** — the first published release.
 
-![the chart](design/output/preview-prague.png)
+The blue palette, tonight's near-full Moon parked on its arc over Prague:
+
+![blue palette, full Moon over Prague on 24 Nov 2026](docs/images/standard-full-moon-2026-11-24.png)
+
+The DARK toggle — everything retinted into the warm-red family, here a night
+ten days later with the waning Moon low before dawn:
+
+![red palette, waning Moon over Prague on 4 Dec 2026](docs/images/dark-crescent-2026-12-04.png)
+
+Quick tour of what the screenshots show:
+
+- **◀ / ▶** step whole nights while the red marker *and the Moon* hold their
+  screen position — leaf through a fortnight and watch the Moon drift.
+- **The slider** scrubs minutes within one night; it never changes the night.
+- **DARK** retints the sky, boxes, Moon and text into the red family, for
+  preserving dark-adapted eyes.
+- The stat row answers the planning questions at a glance: sunset/sunrise, when
+  true darkness starts and ends, how many minutes of it, moonrise/moonset, and
+  how lit the Moon is at midnight — the number that decides whether a faint
+  target is worth setting up for.
 
 ---
 
